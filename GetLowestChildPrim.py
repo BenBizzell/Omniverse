@@ -55,7 +55,7 @@ def main():
         return
 
     # Specify the CSV file path
-    csv_file_path = os.path.abspath("Z:/George Tait/Ben Omniverse/CSV Files/lowest_child_prims.csv")
+    csv_file_path = os.path.abspath("EXPORT.csv")
 
     # Export the names of the lowest child prims to a CSV file
     export_prims_to_csv(lowest_child_prims, csv_file_path)
